@@ -1,29 +1,24 @@
-# =========================
-# Dependencies
-# =========================
+# macOS
+.DS_Store
+
+# Node / React
 node_modules/
-
-# =========================
-# Production builds
-# =========================
 build/
+coverage/
 
-# =========================
-# Environment variables (DO NOT COMMIT)
-# =========================
+# Env files
 .env
 .env.*
 !.env.example
 
-# =========================
 # Logs
-# =========================
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+pnpm-debug.log*
 
-# =========================
-# OS / IDE
-# =========================
-.DS_Store
+# IDE
 .vscode/
+.idea/
+
+# Netlify
+.netlify/
