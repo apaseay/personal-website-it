@@ -1,0 +1,252 @@
+{
+  "basics": {
+    "name": "Ayobami Kolade Pase",
+    "label": "I'm an IT Systems Engineer focused on systems administration, enterprise IT infrastructure, endpoint management, and operational support.",
+    "image": "images/profile.jpg",
+    "picture": "images/profile.jpg",
+    "x_pictureFallback": "images/profile.jpg",
+    "x_title": "Hi There! Thank you for visiting my Page",
+    "summary": "I'm Ayobami Pase, I design, support, and maintain enterprise IT environments, covering systems administration, endpoint management, identity and access management, Microsoft Auto Pilot & Intune, Active Directory, Linux and Windows systems, Device Security, and day-to-day IT operations.",
+    "location": {
+      "country": "Ireland",
+      "countryCode": "IE",
+      "region": "Dublin"
+    },
+    "profiles": [
+      {
+        "network": "Docker Community",
+        "username": "apase1",
+        "url": "https://hub.docker.com/u/apase1",
+        "x_icon": "fab fa-2x fa-docker"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Ayobami Pase",
+        "url": "https://linkedin.com/in/ayobamipase/",
+        "x_icon": "fab fa-2x fa-linkedin"
+      },
+      {
+        "network": "GitHub",
+        "username": "apaseay",
+        "url": "https://github.com/apaseay",
+        "x_icon": "fab fa-2x fa-github"
+      }
+    ]
+  },
+ "work": [
+  {
+    "company": "Groupon",
+    "position": "Systems Engineer / Technical Support Engineer – L3",
+    "startDate": "2023-06",
+    "endDate": "Present",
+    "summary": [
+      "Provided advanced L3 support across enterprise systems, identity services, and endpoint platforms.",
+      "Designed and supported secure, scalable infrastructure solutions for internal and customer-facing projects.",
+      "Optimized database operations, reducing downtime and improving overall system performance.",
+      "Troubleshot critical user-reported issues and built root-cause diagnostics to accelerate resolution.",
+      "Developed scripts and automation tools to improve operational efficiency and system reliability.",
+      "Documented operational processes and delivered technical support to internal users and stakeholders."
+    ]
+  },
+  {
+    "company": "Concentrix (Meta)",
+    "position": "Technical Support Specialist – Facebook & Instagram",
+    "startDate": "2022-01",
+    "endDate": "2023-06",
+    "summary": [
+      "Managed multiple queues of technical support cases, prioritizing issues based on severity and user impact.",
+      "Collaborated with Product Managers and QA teams to investigate internal tooling and platform issues.",
+      "Identified opportunities for workflow and functionality improvements across support tools and processes.",
+         "Drove impactful changes by working closely with internal support teams and external partners.",
+      "Owned cases through resolution or escalation, ensuring timely and accurate outcomes.",
+      "Investigated and triaged Facebook and Instagram product tooling issues, escalating complex cases to Tier 2 Technical Support Engineers."
+    ]
+  },
+  {
+    "company": "CORETVNEWS",
+    "position": "Production Specialist & IT Support Technician",
+    "startDate": "2016-01",
+    "endDate": "2020-01",
+    "summary": [
+      "Investigated and responded to urgent and sensitive inquiries in line with established guidelines and policies.",
+      "Led Master Control Room (MCR) operations and supervised live broadcast production teams.",
+      "Ensured production quality and system security by reviewing workflows and technical tools.",
+      "Provided hands-on technical support for broadcast systems including OBS, TriCaster, audio and video mixers, and Adobe Premiere.",
+      "Investigated urgent technical issues, dispatched field crews, and coordinated incident resolution.",
+      "Transformed operational metrics into insights that increased staff productivity by approximately 50%.",
+      "Identified domestic and global news trends to strengthen editorial planning and output."
+    ]
+  },
+  {
+    "company": "Sports Pro",
+    "position": "Technical Customer Support Analyst",
+    "startDate": "2013-11",
+    "endDate": "2015-12",
+    "summary": [
+      "Audited customer support tickets to ensure SLA compliance and documentation accuracy.",
+      "Delivered weekly quality assurance reports and provided coaching to support team members.",
+      "Led customer service improvement initiatives focused on service quality and consistency.",
+      "Provided hands-on IT support including PC upgrades, hardware troubleshooting, and system maintenance.",
+      "Handled password resets, user access issues, and hardware dispatching for end users."
+    ]
+  }
+],
+  "education": [
+    {
+      "institution": "Atlantic Technological University (ATU) Donegal",
+      "area": "Computing in Cloud Technologies",
+      "studyType": "Postgraduate Diploma",
+      "startDate": "2025-09-08",
+      "endDate": "2026-06-01",
+      "x_country": "Ireland",
+      "x_city": "Donegal",
+      "x_note": "Expected"
+    },
+    {
+      "institution": "National College of Ireland",
+      "area": "International Business",
+      "studyType": "MSc",
+      "startDate": "2020-01",
+      "endDate": "2021-10",
+      "x_country": "Ireland",
+      "x_city": "Dublin"
+    },
+    {
+      "institution": "Oduduwa University, Ipetumodu",
+      "area": "Communication & Information Technology",
+      "studyType": "BSc",
+      "startDate": "2009-09",
+      "endDate": "2013-07",
+      "x_country": "Nigeria",
+      "x_city": "Osun State"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Linux Operating Systems",
+      "x_icon": "fa-brands fa-linux",
+      "x_description": "Hands-on Linux administration, including user and permission management, service configuration, SSH access, and system maintenance."
+    },
+    {
+      "name": "macOS Administration",
+      "x_icon": "fa-brands fa-apple",
+      "x_description": "Enterprise macOS administration, covering device provisioning, user account management, security configuration, compliance controls, troubleshooting, and lifecycle management."
+    },
+    {
+      "name": "Windows Systems Administration",
+      "x_icon": "fa-brands fa-windows",
+      "x_description": "Administration of Windows Server and client systems, including user accounts, group policies, system updates, permissions, autopilot, intune and troubleshooting."
+    },
+    {
+      "name": "Infrastructure Automation",
+      "x_icon": "fa-solid fa-code",
+      "x_description": "Used Terraform and Python to support infrastructure automation tasks, standardize system configurations, and assist with repeatable environment setup under defined architectures."
+    },
+    {
+      "name": "SSH & Secure Access",
+      "x_icon": "fa-solid fa-lock",
+      "x_description": "Experience using SSH for secure remote access, key-based authentication, and managing connections to servers."
+    },
+    {
+      "name": "Endpoint Management",
+      "x_icon": "fa-solid fa-laptop",
+      "x_description": "Endpoint provisioning, configuration, patching, and compliance management across Windows and macOS devices using modern device management tools."
+    },
+    {
+      "name": "IT Service Management (ITSM)",
+      "x_icon": "fa-solid fa-ticket",
+      "x_description": "Incident, service request, and problem management following ITIL-aligned workflows, including SLA tracking and end-user support processes."
+    },
+    {
+      "name": "Monitoring & Observability",
+      "x_icon": "fa-solid fa-chart-line",
+      "x_description": "Implemented dashboards, metrics, and alerts using Datadog and Azure Monitor, with basic system and service monitoring on Unix-like servers via Webmin."
+    },
+    {
+      "name": "Automation & Scripting",
+      "x_icon": "fa-solid fa-terminal",
+      "x_description": "Built command-line tools and infrastructure scripts using Bash and Python to automate repetitive ops workflows."
+    },
+    {
+      "name": "Ansible",
+      "x_icon": "fa-solid fa-diagram-project",
+      "x_description": "Built and managed Ansible automation for multi-node environments, using playbooks to automate system updates and deploy common services."
+    },
+    {
+      "name": "Networking",
+      "x_icon": "fa-solid fa-network-wired",
+      "x_description": "Hands on networking fundamentals including IP addressing, routing, switching, and network simulation using GNS3."
+    },
+    {
+      "name": "Virtualisation",
+      "x_icon": "fa-solid fa-server",
+      "x_description": "Hands-on virtualisation using VMware and VirtualBox to run virtual machines for labs, testing, and infrastructure simulations."
+    },
+    {
+      "name": "Data Centre Operations",
+      "x_icon": "fa-solid fa-database",
+      "x_description": "Data centre operations experience covering system availability, monitoring, and incident response."
+    },
+    {
+      "name": "Hardware & Peripheral Support",
+      "x_icon": "fa-solid fa-computer",
+      "x_description": "Installation, configuration, and troubleshooting of desktops, laptops, printers, peripherals, and enterprise user hardware."
+    }
+
+
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Solutions Architect – Professional",
+      "issuer": "Amazon Web Services (AWS)",
+      "url": "https://www.credly.com/badges/11a14779-a419-4ac3-b9b9-d6aa38eaa402",
+      "x_badgeId": "aws-solutions-architect-professional",
+      "x_imageName": "cert-aws-professional.png"
+    },
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services (AWS)",
+      "url": "https://www.credly.com/badges/19ac1535-4b37-4003-bc8d-a36e2808794a",
+      "x_badgeId": "aws-solutions-architect-associate",
+      "x_imageName": "cert-aws-associate.png"
+    },
+    {
+      "name": "CompTIA Security+",
+      "issuer": "CompTIA",
+      "url": "https://cp.certmetrics.com/CompTIA/en/public/verify/credential",
+      "verification": "https://verify.comptia.org",
+      "credential_id": "3E8VP3GSNJEE179Q",
+      "x_imageName": "comptia-security-plus-ce.png"
+    },
+    {
+      "name": "Preparing for Your Associate Cloud Engineering",
+      "issuer": "Google Cloud Skills Boost",
+      "url": "https://www.cloudskillsboost.google/public_profiles/df1e20e3-ed26-46dc-86d1-948a91f81ccb/badges/18197469",
+      "x_imageName": "preparing-cloud-engineer.png"
+    }  
+  ],
+  "interests": [
+    {
+      "name": "Learning New Things",
+      "x_icon": "fa-lightbulb"
+    },
+    {
+      "name": "Playing & Watching Football",
+      "x_icon": "fa-futbol"
+    },
+    {
+      "name": "Sports Activities",
+      "x_icon": "fa-dumbbell"
+    }
+  ],
+  "projects": [],
+  "publications": [],
+  "awards": [],
+  "references": []
+}
