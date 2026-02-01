@@ -1,55 +1,53 @@
-# Ayobami Pase — Cloud & DevOps Engineer Portfolio
+# Ayobami Pase — IT Systems Engineer Portfolio
 
-This is my personal portfolio website, hosted at [**apase1.com**](https://apase1.com) and [**ayobami-devops.netlify.app**](https://ayobami-devops.netlify.app).  
-It showcases my skills, certifications, DevOps projects, and professional experience in cloud engineering.
+This is my personal IT portfolio website, focused on **enterprise IT systems engineering, systems administration, endpoint management, identity services, and reliable operational support**.
 
-The site is powered by a `resume.json` file that follows the [JSON Resume](https://jsonresume.org/) open standard.  
-It is built with **ReactJS** and styled using the **Bulma CSS framework**.
+The site is deployed with **Netlify** and connected to a custom subdomain.
+
+All site content is driven by a structured `resume.json` file that follows the  
+[JSON Resume](https://jsonresume.org/) open standard.
+
+The application is built with **React** and styled using the **Bulma CSS framework**.
 
 ---
 
 ## 📌 Highlights
 
-- 🌍 Cloud projects using GCP, AWS, Terraform, Docker, and CI/CD workflows  
-- 🧠 Certifications including AWS DevOps Professional and Solutions Architect Associate  
-- 🔧 Tools: GitHub Actions, Terraform Cloud, Slack integrations, Kubernetes  
-- 🗂️ Experience timeline and categorized skill sections  
-- 📫 Contact section with links to GitHub and LinkedIn  
+- 🖥️ Enterprise IT systems administration and operational support  
+- 🔐 Identity, access management, and endpoint security experience  
+- 🧠 Professional certifications (AWS, CompTIA, Google Cloud fundamentals)  
+- 🗂️ Clean experience timeline and structured skill sections  
+- 📫 Contact section with direct GitHub and LinkedIn links  
 
 ---
 
 ## 💻 Technologies Used
 
-- ReactJS  
-- Bulma CSS  
-- JSON Resume Schema  
-- Node.js (v16.15.1 recommended)  
-- Netlify (for hosting and continuous deployment)
+- React (Create React App)
+- Bulma CSS
+- JSON Resume Schema
+- Node.js (v16.x recommended)
+- Netlify (hosting and continuous deployment)
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Live Site
 
-- 🌐 Custom domain: [https://apase1.com](https://apase1.com)  
-- 🧪 Netlify subdomain: [https://ayobami-devops.netlify.app](https://ayobami-devops.netlify.app)
+- 🌐 Custom domain: **https://it.apase1.com**
+- 🧪 Netlify domain: **https://it-apase1.netlify.app**
 
 ---
 
-## 🧰 Getting Started Locally / Build
+## 🧰 Run Locally
 
-To run this project on your local machine:
+Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/apaseay/Personal-Website.git
-cd Personal-Website
+```bash
+git clone https://github.com/apaseay/personal-website-it.git
+cd personal-website-it
 npm install
 npm start
-
-To build the project for production:
-
-npm run build
-
-This creates a build/ directory with optimized static files for deployment (e.g. to Netlify).
 
 ⸻
 
