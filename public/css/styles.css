@@ -261,6 +261,57 @@ html {
   text-align: left;
 }
 
+/* =====================================================
+   EXPERIENCE TIMELINE — SWAP SIDES
+   Odd items (Groupon, CORETVNEWS) → LEFT
+   Even items (Concentrix, Sports Pro) → RIGHT
+===================================================== */
+
+/* Odd items: LEFT side (mirror the default even behaviour) */
+.timeline.is-centered .timeline-item:nth-of-type(2n+1) {
+  align-self: flex-start;
+  margin-left: 0;
+  margin-right: 2em;
+}
+.timeline.is-centered .timeline-item:nth-of-type(2n+1)::before {
+  right: -0.1em;
+  left: auto;
+}
+.timeline.is-centered .timeline-item:nth-of-type(2n+1) .timeline-marker {
+  left: auto;
+  right: -0.45em;
+}
+.timeline.is-centered .timeline-item:nth-of-type(2n+1) .timeline-content {
+  padding: 1em 2em 0 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 100%;
+}
+
+/* Even items: RIGHT side (mirror the default odd behaviour) */
+.timeline.is-centered .timeline-item:nth-of-type(2n) {
+  align-self: flex-end;
+  margin-left: 2em;
+  margin-right: 0;
+}
+.timeline.is-centered .timeline-item:nth-of-type(2n)::before {
+  left: 0;
+  right: auto;
+}
+.timeline.is-centered .timeline-item:nth-of-type(2n) .timeline-marker {
+  left: -0.35em;
+  right: auto;
+}
+.timeline.is-centered .timeline-item:nth-of-type(2n) .timeline-content {
+  padding: 1em 0 0 2em;
+  text-align: left;
+  display: block;
+  align-items: unset;
+  flex-basis: unset;
+}
+
 .cert-verification {
   margin-top: 0.35rem;
   font-size: 0.75rem;

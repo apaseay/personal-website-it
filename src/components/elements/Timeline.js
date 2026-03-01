@@ -37,7 +37,6 @@ export default function Timeline() {
             {items.map((item) => {
               const side = globalIndex % 2 === 0 ? "is-left" : "is-right";
               globalIndex++;
-
               return (
                 <TimelineItem
                   key={`${year}-${item.company}`}

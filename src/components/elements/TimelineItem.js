@@ -1,10 +1,10 @@
 import React from "react";
 
-function TimelineItem({ date, company, summary, type }) {
+function TimelineItem({ date, company, summary, type, side }) {
   const isEducation = type === "education";
 
   return (
-    <div className="timeline-item is-success is-right">
+    <div className={`timeline-item is-success ${side || "is-right"}`}>
       <div className={`timeline-marker ${isEducation ? "is-icon is-info" : "is-32x32"}`}>
       {isEducation && <i className="fa-solid fa-graduation-cap"></i>}
       </div>
