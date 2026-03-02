@@ -18,9 +18,15 @@ function AboutMe() {
           />
         </figure>
 
-        <p className="subtitle is-4 has-text-white has-text-weight-bold">
+        <p className="subtitle is-4 has-text-white has-text-weight-bold about-greeting">
           {Resume.basics.x_title}
         </p>
+
+        <p className="subtitle is-5 has-text-white has-text-weight-bold about-name">
+          {Resume.basics.name}
+        </p>
+
+        <hr className="about-divider" />
 
         <p className="subtitle is-5 has-text-white has-text-weight-light summary-text">
           {Resume.basics.summary}
