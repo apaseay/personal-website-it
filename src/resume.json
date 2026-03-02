@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Ayobami Kolade Pase",
-    "label": "I'm an IT Systems Engineer focused on systems administration, enterprise IT infrastructure, endpoint management, and operational support.",
+    "label": "I'm an IT Systems Engineer specializing in cloud-based identity, directory services, systems administration, enterprise IT infrastructure, endpoint management, and secure acess operrations.",
     "image": "images/profile.jpg",
     "picture": "images/profile.jpg",
     "x_pictureFallback": "images/profile.jpg",
@@ -262,7 +262,7 @@
     },
     {
       "name": "Active Directory Homelab",
-      "description": "Built a fully functional Windows Server Active Directory environment from scratch in a virtualized homelab. Covers network planning, DNS and DHCP configuration, domain deployment, and user and group management — documented end-to-end with screenshots.",
+      "description": "Built a fully functional Windows Server Active Directory environment from scratch in a virtualized homelab. Covers network planning, DNS and DHCP configuration, domain deployment, users and groups management. Documented end-to-end with screenshots.",
       "highlights": ["Windows Server", "Active Directory", "DNS", "DHCP", "Virtualisation"],
       "x_icon": "fa-brands fa-windows",
       "url": "https://github.com/apaseay/active-directory-homelab"
