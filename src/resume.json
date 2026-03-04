@@ -40,12 +40,14 @@
     "startDate": "2023-06",
     "endDate": "Present",
     "summary": [
-      "Provided advanced L3 support across enterprise systems, identity services, and endpoint platforms.",
-      "Designed and supported secure, scalable infrastructure solutions for internal and customer-facing projects.",
-      "Optimized database operations, reducing downtime and improving overall system performance.",
-      "Troubleshot critical user-reported issues and built root-cause diagnostics to accelerate resolution.",
-      "Developed scripts and automation tools to improve operational efficiency and system reliability.",
-      "Documented operational processes and delivered technical support to internal users and stakeholders."
+      "Provided advanced L3 support across enterprise systems, identity services, and endpoint platforms including Windows, macOS, and Linux environments.",
+      "Administered and maintained Active Directory, managing user accounts, group policies, permissions, and identity lifecycle operations.",
+      "Managed enterprise endpoint provisioning, compliance, and security using Microsoft Intune and Windows Autopilot for Windows users, and Kandji for macOS device management and policy enforcement.",
+      "Administered Okta for identity and access management, including user provisioning, SSO configuration, MFA policy enforcement, and access lifecycle operations.",
+      "Developed Bash and Python scripts to automate repetitive operational workflows and improve system reliability.",
+      "Monitored system health, performance metrics, and alerts using Datadog and Azure Monitor.",
+      "Troubleshot critical user-reported issues across multiple platforms, applying root-cause diagnostics to reduce repeat incidents.",
+      "Documented operational runbooks, support processes, and infrastructure procedures to maintain accurate knowledge bases."
     ]
   },
   {
