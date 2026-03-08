@@ -256,11 +256,11 @@
       "url": "https://github.com/apaseay/ansible"
     },
     {
-      "name": "Network Design – Electric Petrol Site",
-      "description": "Full physical and logical network design for a greenfield EV petrol station (400m × 200m). Delivered Layer 1 and Layer 2 documentation including physical containment design, rack placement, cable routing, wirelists, VLAN architecture, switch configuration sheets, logical diagrams, and prototype switch configurations.",
-      "highlights": ["VLAN Design", "Layer 1 & 2", "Rack & Cabling", "Switch Config", "Network Architecture"],
-      "x_icon": "fa-solid fa-network-wired",
-      "url": "https://github.com/apaseay/networking-electric-petrol-site"
+      "name": "OpenClaw Agent",
+      "description": "AI-powered HTTP server built with Node.js, Express, and OpenAI GPT-4. Exposes a REST API that forwards user prompts to the OpenAI API and returns AI-generated responses. Runs inside a Docker container on an Ubuntu virtual machine hosted via VMware Fusion on Mac M1.",
+      "highlights": ["Node.js", "Express", "OpenAI GPT-4", "Docker", "Ubuntu", "VMware Fusion"],
+      "x_icon": "fa-solid fa-robot",
+      "url": "https://github.com/apaseay/openclaw-agent"
     },
     {
       "name": "Active Directory Homelab",
@@ -268,6 +268,13 @@
       "highlights": ["Windows Server", "Active Directory", "DNS", "DHCP", "Virtualisation"],
       "x_icon": "fa-brands fa-windows",
       "url": "https://github.com/apaseay/active-directory-homelab"
+    },
+    {
+      "name": "Network Design – Electric Petrol Site",
+      "description": "Full physical and logical network design for a greenfield EV petrol station (400m × 200m). Delivered Layer 1 and Layer 2 documentation including physical containment design, rack placement, cable routing, wirelists, VLAN architecture, switch configuration sheets, logical diagrams, and prototype switch configurations.",
+      "highlights": ["VLAN Design", "Layer 1 & 2", "Rack & Cabling", "Switch Config", "Network Architecture"],
+      "x_icon": "fa-solid fa-network-wired",
+      "url": "https://github.com/apaseay/networking-electric-petrol-site"
     },
     {
       "name": "Personal IT Portfolio Website",
