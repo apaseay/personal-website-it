@@ -28,21 +28,17 @@ function Footer() {
             gap: "48px"
           }}
         >
-          {/* Gmail */}
+          {/* Email */}
           <a
-            href="mailto:aypase@gmail.com"
+            href="mailto:ayo@apase1.com"
             aria-label="Send email"
             style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "8px", textDecoration: "none" }}
           >
-            {/* Gmail icon — official multicolour */}
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" style={{ width: 34, height: 34 }}>
-              <path fill="#4caf50" d="M45 16.2l-5 2.75-5 4.75L35 40h7c1.657 0 3-1.343 3-3V16.2z"/>
-              <path fill="#1e88e5" d="M3 16.2l3.614 1.71L13 23.7V40H6c-1.657 0-3-1.343-3-3V16.2z"/>
-              <polygon fill="#e53935" points="35,11.2 24,19.45 13,11.2 12,17 13,23.7 24,31.95 35,23.7 36,17"/>
-              <path fill="#c62828" d="M3 12.298V16.2l10 7.5V11.2L9.876 8.859C9.132 8.301 8.228 8 7.298 8 4.924 8 3 9.924 3 12.298z"/>
-              <path fill="#fbc02d" d="M45 12.298V16.2l-10 7.5V11.2l3.124-2.341C38.868 8.301 39.772 8 40.702 8 43.076 8 45 9.924 45 12.298z"/>
+            {/* Envelope icon — white, matches GitHub/LinkedIn style */}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style={{ width: 34, height: 34, fill: "#ffffff" }}>
+              <path d="M20 4H4C2.897 4 2 4.897 2 6v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 5.04-8-5.04V6h16zM4 18V9.044l7.386 4.648a1 1 0 001.228 0L20 9.044V18H4z"/>
             </svg>
-            <span className="has-text-white" style={{ fontSize: "0.82rem" }}>aypase@gmail.com</span>
+            <span className="has-text-white" style={{ fontSize: "0.82rem" }}>ayo@apase1.com</span>
           </a>
 
           {/* GitHub */}
