@@ -19,10 +19,19 @@ function Projects() {
               <div className="card skill-card" style={{ height: "100%" }}>
                 <div className="card-content">
                   <div className="media" style={{ marginBottom: "0.75rem" }}>
-                    <div className="media-left">
-                      <span
-                        className={`skill-icon has-text-link is-size-3 ${project.x_icon}`}
-                      ></span>
+                    <div className="media-left" style={{ display: "flex", gap: "0.3rem", alignItems: "center" }}>
+                      {Array.isArray(project.x_icons)
+                        ? project.x_icons.map((icon, i) =>
+                            icon.startsWith("fa")
+                              ? <span key={i} className={`skill-icon has-text-link is-size-3 ${icon}`}></span>
+                              : <span key={i} style={{ fontSize: "1.75rem", lineHeight: 1 }}>{icon}</span>
+                          )
+                        : (
+                            <span
+                              className={`skill-icon has-text-link is-size-3 ${project.x_icon}`}
+                            ></span>
+                          )
+                      }
                     </div>
                     <div className="media-content">
                       <p className="skill-title is-size-6">{project.name}</p>
@@ -42,7 +51,9 @@ function Projects() {
                     </div>
                   </div>
                   <p className="has-text-grey is-size-7" style={{ marginBottom: "0.75rem" }}>
-                    {project.description}
+                    {project.x_description_html
+                      ? <span dangerouslySetInnerHTML={{ __html: project.x_description_html }} />
+                      : project.description}
                   </p>
                   {Array.isArray(project.highlights) && project.highlights.length > 0 && (
                     <div className="tags">

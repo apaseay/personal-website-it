@@ -257,10 +257,18 @@
     },
     {
       "name": "OpenClaw Agent",
-      "description": "AI-powered HTTP server built with Node.js, Express, and OpenAI GPT-4. Exposes a REST API that forwards user prompts to the OpenAI API and returns AI-generated responses. Runs inside a Docker container on an Ubuntu virtual machine hosted via VMware Fusion on Mac M1.",
-      "highlights": ["Node.js", "Express", "OpenAI GPT-4", "Docker", "Ubuntu", "VMware Fusion"],
-      "x_icon": "fa-solid fa-robot",
+      "description": "AI-powered Discord bot built with Node.js, Express, OpenAI GPT-4, and Discord.js. Exposes a REST API that forwards user prompts to OpenAI and sends AI-generated replies back to Discord. Runs inside a Docker container on Ubuntu via VMware Fusion on Mac M1.",
+      "highlights": ["Node.js", "Express", "OpenAI GPT-4", "Discord", "Docker", "Ubuntu", "VMware Fusion"],
+      "x_icons": ["🦀", "fa-solid fa-robot", "fa-brands fa-discord"],
       "url": "https://github.com/apaseay/openclaw-agent"
+    },
+    {
+      "name": "Okta MCP Server",
+      "description": "An AI-powered Okta IT automation server built with Claude Code and the Model Context Protocol (MCP). Enables natural language IT operations, provisioning users, auditing MFA compliance, managing groups, and more. All via conversation with Claude.",
+      "x_description_html": "An AI-powered Okta IT automation server built with <a href=\"https://claude.ai/code\" target=\"_blank\" rel=\"noopener noreferrer\">Claude Code</a> and the <a href=\"https://modelcontextprotocol.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Model Context Protocol (MCP)</a>. Enables natural language IT operations, provisioning users, auditing MFA compliance, managing groups, and more. All via conversation with Claude.",
+      "highlights": ["Claude Code", "MCP", "Okta API", "Python", "IT Automation", "AI Ops"],
+      "x_icons": ["fa-solid fa-fingerprint", "fa-solid fa-plug-circle-bolt", "fa-solid fa-user-shield"],
+      "url": "https://github.com/apaseay/okta-mcp-server"
     },
     {
       "name": "Active Directory Homelab",
