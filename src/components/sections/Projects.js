@@ -24,7 +24,12 @@ function Projects() {
                         ? project.x_icons.map((icon, i) =>
                             icon.startsWith("fa")
                               ? <span key={i} className={`skill-icon has-text-link is-size-3 ${icon}`}></span>
-                              : <span key={i} style={{ fontSize: "1.75rem", lineHeight: 1 }}>{icon}</span>
+                              : <img
+                                  key={i}
+                                  src={`https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/${icon.codePointAt(0).toString(16)}.svg`}
+                                  alt={icon}
+                                  style={{ width: "1.75rem", height: "1.75rem", lineHeight: 1 }}
+                                />
                           )
                         : (
                             <span
