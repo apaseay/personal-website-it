@@ -145,31 +145,6 @@
       "x_description": "Used Terraform and Python to support infrastructure automation tasks, standardize system configurations, and assist with repeatable environment setup under defined architectures."
     },
     {
-      "name": "SSH & Secure Access",
-      "x_icon": "fa-solid fa-lock",
-      "x_description": "Experience using SSH for secure remote access, key-based authentication, and managing connections to servers."
-    },
-    {
-      "name": "Endpoint Management",
-      "x_icon": "fa-solid fa-laptop",
-      "x_description": "Endpoint provisioning, configuration, patching, and compliance management across Windows and macOS devices using modern device management tools."
-    },
-    {
-      "name": "IT Service Management (ITSM)",
-      "x_icon": "fa-solid fa-ticket",
-      "x_description": "Incident, service request, and problem management following ITIL-aligned workflows, including SLA tracking and end-user support processes."
-    },
-    {
-      "name": "Monitoring & Observability",
-      "x_icon": "fa-solid fa-chart-line",
-      "x_description": "Implemented dashboards, metrics, and alerts using Datadog and Azure Monitor, with basic system and service monitoring on Unix-like servers via Webmin."
-    },
-    {
-      "name": "Automation & Scripting",
-      "x_icon": "fa-solid fa-terminal",
-      "x_description": "Built command-line tools and infrastructure scripts using Bash and Python to automate repetitive ops workflows."
-    },
-    {
       "name": "Ansible",
       "x_icon": "fa-solid fa-diagram-project",
       "x_description": "Built and managed Ansible automation for multi-node environments, using playbooks to automate system updates and deploy common services."
@@ -193,6 +168,36 @@
       "name": "Hybrid Cloud",
       "x_icon": "fa-solid fa-cloud",
       "x_description": "Connecting on-premises enterprise infrastructure with public cloud, spanning virtualisation, data centre design, storage, networking, and identity management."
+    },
+    {
+      "name": "Automation & Scripting",
+      "x_icon": "fa-solid fa-terminal",
+      "x_description": "Built command-line tools and infrastructure scripts using Bash and Python to automate repetitive ops workflows."
+    },
+    {
+      "name": "SSH & Secure Access",
+      "x_icon": "fa-solid fa-lock",
+      "x_description": "Experience using SSH for secure remote access, key-based authentication, and managing connections to servers."
+    },
+    {
+      "name": "Monitoring & Observability",
+      "x_icon": "fa-solid fa-chart-line",
+      "x_description": "Implemented dashboards, metrics, and alerts using Datadog and Azure Monitor, with basic system and service monitoring on Unix-like servers via Webmin."
+    },
+    {
+      "name": "Cloud Platforms",
+      "x_icon": "fa-solid fa-cloud",
+      "x_description": "Hands-on with AWS, GCP, and Microsoft Azure. Building, deploying, and securing scalable infrastructure across all three."
+    },
+    {
+      "name": "Endpoint Management",
+      "x_icon": "fa-solid fa-laptop",
+      "x_description": "Endpoint provisioning, configuration, patching, and compliance management across Windows and macOS devices using modern device management tools."
+    },
+    {
+      "name": "IT Service Management (ITSM)",
+      "x_icon": "fa-solid fa-ticket",
+      "x_description": "Incident, service request, and problem management following ITIL-aligned workflows, including SLA tracking and end-user support processes."
     },
     {
       "name": "Hardware & Peripheral Support",
