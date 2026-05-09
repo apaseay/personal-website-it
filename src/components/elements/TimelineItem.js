@@ -1,14 +1,19 @@
 import React from "react";
 
-function TimelineItem({ date, company, summary, type, side }) {
-  const isEducation = type === "education";
+function TimelineItem(props) {
+  const { date, company, summary, icon, logo, color } = props;
 
   return (
-    <div className={`timeline-item is-success ${side || "is-right"}`}>
-      <div className={`timeline-marker ${isEducation ? "is-icon is-info" : "is-32x32"}`}>
-      {isEducation && <i className="fa-solid fa-graduation-cap"></i>}
+    <div className={`timeline-item ${color || "is-success"}`}>
+      <div className="timeline-marker is-32x32">
+        {icon ? (
+          icon
+        ) : logo ? (
+          <img src={logo} alt={`${company} logo`} />
+        ) : (
+          <span />
+        )}
       </div>
-
       <div className="timeline-content">
         <p className="heading">{date}</p>
         <h1 className="title is-4">{company}</h1>
