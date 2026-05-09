@@ -52,6 +52,7 @@ export default function EducationTimeline() {
                   summary={summary}
                   icon={<FaGraduationCap />}
                   color="is-info"
+                  type="education"
                 />
               );
             })}
