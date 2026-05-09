@@ -190,6 +190,11 @@
       "x_description": "Data centre operations experience covering system availability, monitoring, and incident response."
     },
     {
+      "name": "Hybrid Cloud",
+      "x_icon": "fa-solid fa-cloud",
+      "x_description": "Experience working across on-premises and cloud environments, bridging enterprise IT infrastructure with cloud platforms including AWS, Azure, and GCP."
+    },
+    {
       "name": "Hardware & Peripheral Support",
       "x_icon": "fa-solid fa-computer",
       "x_description": "Installation, configuration, and troubleshooting of desktops, laptops, printers, peripherals, and enterprise user hardware."
