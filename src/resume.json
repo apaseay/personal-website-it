@@ -192,7 +192,7 @@
     {
       "name": "Hybrid Cloud",
       "x_icon": "fa-solid fa-cloud",
-      "x_description": "Bridging on-premises enterprise infrastructure with public cloud, covering server and desktop virtualisation (VMware, Hyper-V), data centre design, storage and networking virtualisation, availability theory, and identity management with Active Directory and cloud IAM."
+      "x_description": "Connecting on-premises enterprise infrastructure with public cloud, spanning virtualisation, data centre design, storage, networking, and identity management."
     },
     {
       "name": "Hardware & Peripheral Support",
