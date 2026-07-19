@@ -43,11 +43,11 @@ The application is built with **React** and styled using the **Bulma CSS framewo
 Clone the repository and install dependencies:
 
 ```bash
-```bash
 git clone https://github.com/apaseay/personal-website-it.git
 cd personal-website-it
 npm install
 npm start
+```
 
 ⸻
 

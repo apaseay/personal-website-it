@@ -13,36 +13,44 @@ export default function CredlyBadge({
       ? imageName
       : `${process.env.PUBLIC_URL}/images/${imageName}`;
 
+  const figure = (
+    <figure
+      className="image credly-badge"
+      style={{
+        width: `${width}px`,
+        height: `${height}px`,
+        margin: "0 auto",
+        display: "inline-block",
+      }}
+    >
+      <img
+        src={imgSrc}
+        alt={badgeName}
+        loading="lazy"
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "contain",
+          display: "block",
+        }}
+      />
+    </figure>
+  );
+
   return (
     <div style={{ textAlign: "center", marginBottom: "1rem" }}>
-      <a
-        href={verification}
-        target="_blank"
-        rel="noopener noreferrer"
-        title={`Verify ${badgeName}`}
-      >
-        <figure
-          className="image credly-badge"
-          style={{
-            width: `${width}px`,
-            height: `${height}px`,
-            margin: "0 auto",
-            display: "inline-block",
-          }}
+      {verification ? (
+        <a
+          href={verification}
+          target="_blank"
+          rel="noopener noreferrer"
+          title={`Verify ${badgeName}`}
         >
-          <img
-            src={imgSrc}
-            alt={badgeName}
-            loading="lazy"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "contain",
-              display: "block",
-            }}
-          />
-        </figure>
-      </a>
+          {figure}
+        </a>
+      ) : (
+        figure
+      )}
 
       {credential_id && (
         <div

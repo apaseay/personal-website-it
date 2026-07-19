@@ -34,7 +34,7 @@ class NavBar extends React.Component {
           <div
             className={
               "navbar-menu nav-menu " +
-              (this.state.showMenu ? "is-active" : null)
+              (this.state.showMenu ? "is-active" : "")
             }
           >
             <div className="navbar-end" onClick={this.handleMenuClick}>
